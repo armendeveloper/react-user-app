@@ -12,3 +12,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a {
+  padding: 10px;
+  color: black;
+}
+a.active{
+  color: blue;
+  font-weight: bold;
+}
+.content {
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+}
+.users-table {
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.users-table th,td {
+  border: 1px solid black;
+  text-align: center;
+}
+.search{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.label {
+  float:left;
+  margin-right: 10px;
+}
+.user-form {
+  text-align: center;
+  width: 400px;
+  margin: 10px auto;
+}
